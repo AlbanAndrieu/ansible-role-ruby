@@ -1,0 +1,3 @@
+---
+
+elao_ruby_deb_url: "deb http://deb.bearstech.com/debian {{ ansible_distribution_release }}-bearstech main"
