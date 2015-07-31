@@ -18,7 +18,7 @@
     state=present
     update_cache=yes
   with_items:
-    - deb http://deb.bearstech.com/debian {{ ansible_lsb.codename }}-bearstech main
+    - "{{ elao_ruby_deb_url }}"
   sudo: yes
 
 - name: packages
